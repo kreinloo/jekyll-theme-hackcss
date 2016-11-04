@@ -6,10 +6,11 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your Jekyll site's Gemfile:
+Add these lines to your Jekyll site's Gemfile:
 
 ```ruby
 gem "jekyll-theme-hackcss"
+gem "jekyll-plugin-tag-generator"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:

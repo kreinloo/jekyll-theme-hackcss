@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kreinloo@users.noreply.github.com"]
 
   spec.summary       = %q{Jekyll theme built using hackcss}
-  spec.description   = "{Jekyll theme built using hackcss"
+  spec.description   = "Jekyll theme built using hackcss"
   spec.homepage      = "https://github.com/kreinloo/jekyll-theme-hackcss"
   spec.license       = "MIT"
 
