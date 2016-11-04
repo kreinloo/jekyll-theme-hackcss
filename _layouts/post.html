@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="cell -10of12">
+  <p class="postdate">Published on {{ page.date | date: '%B %d, %Y'}}</p>
+  {{ content }}
+
+  <p class="tags">
+    tags:
+    {% for tag in page.tags %}
+    <a href="/tag/{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+  </p>
+</div>

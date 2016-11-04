@@ -1,0 +1,41 @@
+footer.footer {
+  text-align: center;
+}
+
+.hack h1:after {
+  content: ""
+}
+.hack h1 {
+  padding-bottom: 0px;
+}
+
+.hack hr {
+  margin-top: 0px;
+}
+
+.hack blockquote {
+  color: #888;
+  font-style: italic;
+}
+
+p.tags {
+  font-style: italic;
+}
+
+div.container.main {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.media:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+p.about {
+  padding: 1px;
+}
+
+p.postdate {
+  margin: 0px;
+  font-style: italic;
+}
