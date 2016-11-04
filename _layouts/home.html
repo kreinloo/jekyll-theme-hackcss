@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="cell -3of12">
+  <h4>About</h4>
+  <p class="about">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nulla sodales libero at urna lacinia porta a eget felis.
+    Suspendisse sollicitudin erat et justo malesuada, nec tempor elit semper.
+    Aliquam tincidunt sapien justo, et semper purus porta et.
+  </p>
+</div>
+
+<div class="cell -7of12">
+  <h4>Posts</h4>
+  <ul>
+    {% for post in site.posts %}
+      <li>{{ post.date | date: '%d %b %Y' }} »  <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
