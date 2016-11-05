@@ -1,5 +1,8 @@
 <head>
   <meta charset="UTF-8">
+  <title>{{ site.title }}
+  {% if page and page.title %} &#187; {{ page.title }} {% endif %}
+  </title>
   <link rel="stylesheet" href="{{ "/assets/css/hack.css" }}">
   <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" }}">
   <link rel="stylesheet" href="{{ "/assets/css/custom.css" }}">
