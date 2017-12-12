@@ -4,24 +4,23 @@
 
 ## Installation
 
-Add these lines to your Jekyll site's Gemfile:
+Add these lines to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-hackcss"
+gem "jekyll-theme-hackcss", :git => "https://github.com/kreinloo/jekyll-theme-hackcss"
 ...
 group :jekyll_plugins do
   ...
-  gem "jekyll-plugin-tag-generator"
+  gem "jekyll-plugin-tag-generator", :git => "https://github.com/kreinloo/jekyll-plugin-tag-generator"
   ...
 end
 ```
 
-And add these lines to your Jekyll site's `_config.yml`:
+And make these changes in your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: jekyll-theme-hackcss
-...
-gems:
+plugins:
   ...
   - jekyll-plugin-tag-generator
   ...
@@ -30,10 +29,6 @@ gems:
 And then execute:
 
     $ bundle
-
-Or install them yourself as:
-
-    $ gem install jekyll-theme-hackcss jekyll-plugin-tag-generator
 
 ## Usage
 
